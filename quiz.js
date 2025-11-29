@@ -12,7 +12,7 @@ function checkAnswer() {
         userAnswer.push(checkbox.value);
       }
     });
-    if (userAnswer == correctAnswer) {
+    if (userAnswer === correctAnswer) {
       feedback.innerText = "Correct! Well done.";
     } else {
       feedback.innerText = "That's incorrect. Try again!";
@@ -21,3 +21,4 @@ function checkAnswer() {
 }
 
 document.addEventListener("DOMContentLoaded", checkAnswer);
+
