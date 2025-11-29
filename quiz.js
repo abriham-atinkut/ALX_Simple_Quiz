@@ -1,5 +1,5 @@
 function checkAnswer() {
-  const submit = document.getElementById("submit-answer");
+  const submit = document.querySelector("#submit-answer");
   const feedback = document.getElementById("feedback");
   submit.addEventListener("click", function () {
     const correctAnswer = "4";
